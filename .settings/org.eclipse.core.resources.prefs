@@ -1,2 +1,6 @@
 eclipse.preferences.version=1
+<<<<<<< HEAD
 encoding//src/main/java/org/zerock/service/BoardService.java=UTF-8
+=======
+encoding/<project>=UTF-8
+>>>>>>> refs/remotes/origin/master
