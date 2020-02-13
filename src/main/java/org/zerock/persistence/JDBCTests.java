@@ -21,8 +21,9 @@ public class JDBCTests {
 	
 	@Test
 	public void testConnection() {
-		try(Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521XE",
-				"shatiel",
+		//try(Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521XE",
+		try(Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/world?serverTimezone=UTC&characterEncoding=UTF-8",
+				"root",
 				"56tyghbn56")){
 			
 		} catch(Exception e) {
