@@ -25,7 +25,7 @@
 	</sql>
 
 	<select id="getList" resultType="org.zerock.domain.BoardVO">
-	<![CDATA[
+		<![CDATA[
 		select * from tbl_board where
 		bno > 0 and rownum <= 100
 		]]>

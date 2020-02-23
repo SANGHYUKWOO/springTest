@@ -5,6 +5,6 @@
 <mapper namespace="org.zerock.mapper.TimeMapper">
 
 	<select id="getTime1" resultType="String">
-		select SYSDATE() from dual
+		select SYSDATE from dual
 	</select>
 </mapper>
